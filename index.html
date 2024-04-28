@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Art Supplies</title>
+	<style>
+		body {
+			background-color: #F7CAC9; /* colorful background */
+			font-family: Arial, sans-serif;
+		}
+		
+		.header {
+			background-color: #7A288A; /* purple header */
+			color: #FFFFFF;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.footer {
+			background-color: #7A288A; /* purple footer */
+			color: #FFFFFF;
+			padding: 10px;
+			text-align: center;
+			clear: both;
+		}
+		
+		.search-bar {
+			width: 50%;
+			padding: 10px;
+			font-size: 18px;
+			border: none;
+			border-radius: 10px;
+			margin: 20px auto;
+		}
+		
+		.button {
+			background-color: #4CAF50;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #00008B;
+		}
+		
+		.product {
+			margin: 20px;
+			padding: 20px;
+			border: 1px solid #CCCCCC;
+			border-radius: 10px;
+			width: 250px;
+			display: inline-block;
+		}
+		
+		.product img {
+			width: 100%;
+			height: 150px;
+			border-radius: 10px 10px 0 0;
+		}
+		
+		.product-info {
+			padding: 10px;
+		}
+		
+		.product-info h2 {
+			margin-top: 0;
+		}
+		
+		.product-info p {
+			margin-bottom: 20px;
+		}
+		
+		.add-to-cart {
+			background-color: #4CAF50;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+		
+		.add-to-cart:hover {
+			background-color: #3e8e41;
+		}
+		
+		.social-media {
+			margin-top: 20px;
+		}
+		
+		.social-media a {
+			margin: 10px;
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		.social-media a:hover {
+			color: #CCCCCC;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<h1>Art Supplies</h1>
+    <label for="search">Search:</label>
+		<input type="search" id="search" class="search-bar" placeholder="Search...">
+		<button class="button">Search</button>
+		<button class="button">Home</button>
+		<button class="button">Supplies</button>
+		<button class="button">Sign In</button>
+	</header>
+	
+	<div class="body">
+		<h2>Welcome to Art Supplies!</h2>
+		<p>We offer a wide range of art supplies for all your creative needs. From paints to brushes, canvases to easels, we have everything you need to bring your artistic vision to life.</p>
+		
+		<div class="product">
+			<img src="https://via.placeholder.com/250x150" alt="Product Image">
+			<div class="product-info">
+				<h2>Acrylic Paint Set</h2>
+				<p>This set of 10 acrylic paints is perfect for beginners and experienced artists alike. With a range of vibrant colors, you'll be able to create stunning works of art.</p>
+				<p>Price: $25.00</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+		</div>
+		
+		<div class="product">
+			<img src="https://via.placeholder.com/250x150" alt="Product Image">
+			<div class="product-info">
+				<h2>Watercolor Brushes</h2>
+				<p>This set of 5 watercolor brushes is perfect for creating delicate, detailed works of art. With synthetic fibers and durable construction, these brushes will last for years to come.</p>
+				<p>Price: $15.00</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+		</div>
+		
+		<div class="product">
+			<img src="https://via.placeholder.com/250x150" alt="Product Image">
+			<div class="product-info">
+				<h2>Canvas Panel</h2>
+				<p>This canvas panel is perfect for creating stunning works of art. With a durable construction andsmooth surface, it's perfect for painting with acrylics, oils, or watercolors.</p>
+				<p>Price: $5.00</p>
+				<button class="add-to-cart">Add to Cart</button>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<p>Copyright © 2023 Art Supplies</p>
+		<div class="social-media">
+			<a href="#">Facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">Instagram</a>
+		</div>
+	</footer>
+</body>
+</html>
